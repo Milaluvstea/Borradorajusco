@@ -17,6 +17,20 @@
             font-family: Arial, sans-serif;
             position: relative;
         }
+
+        /* Imagen de fondo con efecto multiplicar */
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://img.freepik.com/fotos-premium/cabana-bosque-silueta-negra-aislada-blanco_807701-4339.jpg') no-repeat center center;
+            background-size: down;
+            mix-blend-mode: multiply;
+            z-index: 3; /* Asegura que la imagen esté encima de las estrellas pero debajo del fuego */
+        }
+
         .container {
             position: absolute;
             text-align: center;
@@ -54,16 +68,6 @@
             color: white;
             transform: scale(1.1);
         }
-        .image-container {
-            position: center;
-            top: 50%;
-            left: 50%;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            mix-blend-mode: multiply;
-               }
 
         .fire-container {
             position: absolute;
@@ -79,6 +83,7 @@
             height: 100%;
             mix-blend-mode: multiply;
         }
+
         .stars, .shooting-star {
             position: absolute;
             width: 2px;
@@ -87,15 +92,18 @@
             box-shadow: 0 0 5px white;
             animation: twinkle 3s infinite;
         }
+
         @keyframes twinkle {
             50% { opacity: 0.3; }
         }
+
         .shooting-star {
             width: 4px;
             height: 4px;
             background: yellow;
             animation: shoot 2s infinite linear;
         }
+
         @keyframes shoot {
             0% { transform: translate(100vw, -10vh); opacity: 1; }
             100% { transform: translate(-50vw, 50vh); opacity: 0; }
@@ -151,17 +159,14 @@
         }
     </script>
 
+    <!-- Imagen de fondo con efecto multiplicar -->
+    <div class="background-image"></div>
+
     <div class="container">
         <h1>Bienvenido al proyecto final</h1>
         <p>Por favor, ingrese el código dado por los representantes</p>
         <input type="text" id="codeInput" placeholder="Ingrese código" onkeydown="checkEnter(event)">
         <button onclick="checkCode()">Ingresar</button>
-    </div>
-
-    <div class="image-container">
-        <picture>
-  <source media="(max-width: 799px)" srcset="https://scontent.fmex2-1.fna.fbcdn.net/v/t39.30808-6/481783985_666401382425276_1748038720067318412_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGqLFyIqQR5frZmKxkYY1Xr1O0T1IeIwvvU7RPUh4jC-xw0viU8AjkdEEKa4TAxLGkASKfXAenbePj1Hl2-0w3y&_nc_ohc=e5G8ICIb1PEQ7kNvgHiWdcg&_nc_oc=AdhH7aqpkmAB85VQCHR4eUkbU9gTgiWkQ9BoDZyxOcAgguFxDlcE7ZDxNTFUywhJc9InAMtvqrwYz8ClsiHHAd_F&_nc_zt=23&_nc_ht=scontent.fmex2-1.fna&_nc_gid=AhuRbaaVmV0ieX9qsDywx1Q&oh=00_AYHYX6uK3Pwy2G7YJlUkKG3KJXo4qp3aYDOIK5ZdqsXLtA&oe=67D84FE6" width="480" height="400" /> <source media="(min-width: 800px)" srcset="https://scontent.fmex2-1.fna.fbcdn.net/v/t39.30808-6/481783985_666401382425276_1748038720067318412_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGqLFyIqQR5frZmKxkYY1Xr1O0T1IeIwvvU7RPUh4jC-xw0viU8AjkdEEKa4TAxLGkASKfXAenbePj1Hl2-0w3y&_nc_ohc=e5G8ICIb1PEQ7kNvgHiWdcg&_nc_oc=AdhH7aqpkmAB85VQCHR4eUkbU9gTgiWkQ9BoDZyxOcAgguFxDlcE7ZDxNTFUywhJc9InAMtvqrwYz8ClsiHHAd_F&_nc_zt=23&_nc_ht=scontent.fmex2-1.fna&_nc_gid=AhuRbaaVmV0ieX9qsDywx1Q&oh=00_AYHYX6uK3Pwy2G7YJlUkKG3KJXo4qp3aYDOIK5ZdqsXLtA&oe=67D84FE6" width="800" height="400" /> <img src="https://scontent.fmex2-1.fna.fbcdn.net/v/t39.30808-6/481783985_666401382425276_1748038720067318412_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGqLFyIqQR5frZmKxkYY1Xr1O0T1IeIwvvU7RPUh4jC-xw0viU8AjkdEEKa4TAxLGkASKfXAenbePj1Hl2-0w3y&_nc_ohc=e5G8ICIb1PEQ7kNvgHiWdcg&_nc_oc=AdhH7aqpkmAB85VQCHR4eUkbU9gTgiWkQ9BoDZyxOcAgguFxDlcE7ZDxNTFUywhJc9InAMtvqrwYz8ClsiHHAd_F&_nc_zt=23&_nc_ht=scontent.fmex2-1.fna&_nc_gid=AhuRbaaVmV0ieX9qsDywx1Q&oh=00_AYHYX6uK3Pwy2G7YJlUkKG3KJXo4qp3aYDOIK5ZdqsXLtA&oe=67D84FE6" alt="Puppy with balloons" width="800" height="400" position:down;/>
-</picture>
     </div>
 
     <div class="fire-container">
