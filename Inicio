@@ -165,7 +165,11 @@
     </div>
 
     <div class="image-container">
-        <img src="https://scontent.fmex2-1.fna.fbcdn.net/v/t39.30808-6/481783985_666401382425276_1748038720067318412_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGqLFyIqQR5frZmKxkYY1Xr1O0T1IeIwvvU7RPUh4jC-xw0viU8AjkdEEKa4TAxLGkASKfXAenbePj1Hl2-0w3y&_nc_ohc=e5G8ICIb1PEQ7kNvgHiWdcg&_nc_oc=AdhH7aqpkmAB85VQCHR4eUkbU9gTgiWkQ9BoDZyxOcAgguFxDlcE7ZDxNTFUywhJc9InAMtvqrwYz8ClsiHHAd_F&_nc_zt=23&_nc_ht=scontent.fmex2-1.fna&_nc_gid=AhuRbaaVmV0ieX9qsDywx1Q&oh=00_AYHYX6uK3Pwy2G7YJlUkKG3KJXo4qp3aYDOIK5ZdqsXLtA&oe=67D84FE6" width="auto" height="auto" alt="Imagen decorativa">
+        <picture>
+  <source media="(max-width: 799px)" srcset="https://scontent.fmex2-1.fna.fbcdn.net/v/t39.30808-6/481783985_666401382425276_1748038720067318412_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGqLFyIqQR5frZmKxkYY1Xr1O0T1IeIwvvU7RPUh4jC-xw0viU8AjkdEEKa4TAxLGkASKfXAenbePj1Hl2-0w3y&_nc_ohc=e5G8ICIb1PEQ7kNvgHiWdcg&_nc_oc=AdhH7aqpkmAB85VQCHR4eUkbU9gTgiWkQ9BoDZyxOcAgguFxDlcE7ZDxNTFUywhJc9InAMtvqrwYz8ClsiHHAd_F&_nc_zt=23&_nc_ht=scontent.fmex2-1.fna&_nc_gid=AhuRbaaVmV0ieX9qsDywx1Q&oh=00_AYHYX6uK3Pwy2G7YJlUkKG3KJXo4qp3aYDOIK5ZdqsXLtA&oe=67D84FE6" width="480" height="400" />
+  <source media="(min-width: 800px)" srcset="https://scontent.fmex2-1.fna.fbcdn.net/v/t39.30808-6/481783985_666401382425276_1748038720067318412_n.jpg?stp=dst-jpg_p552x414_tt6&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGqLFyIqQR5frZmKxkYY1Xr1O0T1IeIwvvU7RPUh4jC-xw0viU8AjkdEEKa4TAxLGkASKfXAenbePj1Hl2-0w3y&_nc_ohc=e5G8ICIb1PEQ7kNvgHiWdcg&_nc_oc=AdhH7aqpkmAB85VQCHR4eUkbU9gTgiWkQ9BoDZyxOcAgguFxDlcE7ZDxNTFUywhJc9InAMtvqrwYz8ClsiHHAd_F&_nc_zt=23&_nc_ht=scontent.fmex2-1.fna&_nc_gid=AhuRbaaVmV0ieX9qsDywx1Q&oh=00_AYHYX6uK3Pwy2G7YJlUkKG3KJXo4qp3aYDOIK5ZdqsXLtA&oe=67D84FE6" width="800" height="400" />
+  <img src="puppy-800w.jpg" alt="Puppy with balloons" width="800" height="400" />
+</picture>
     </div>
 
     <div class="fire-container">
